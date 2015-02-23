@@ -17,6 +17,7 @@ def Merge(first, last):
 			i+=1
 		else:
 			a.append(last[j])
+			
 			j+=1
 			
 	while i<len(first):
@@ -32,4 +33,4 @@ def Merge(first, last):
 #Testing the code
 A=[3,2,6,7,2,5,1,54,124,76,23]
 print MergeSort(A)
-print A
+
